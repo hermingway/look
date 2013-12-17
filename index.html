@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="如何用Git生成一个静态页面 : 超级外行人员生产静态页面的方法——这是副标题" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>如何用Git生成一个静态页面</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>如何用Git生成一个静态页面 by hermingway</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/hermingway/look">View on GitHub</a>
-
-          <h1 id="project_title">如何用Git生成一个静态页面</h1>
-          <h2 id="project_tagline">超级外行人员生产静态页面的方法——这是副标题</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/hermingway/look/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/hermingway/look/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+        <header>
+          <h1>如何用Git生成一个静态页面</h1>
+          <h2>超级外行人员生产静态页面的方法——这是副标题</h2>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p><a href="http://pages.github.com/">Git官方说明文档</a></p>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/hermingway/look/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/hermingway/look/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/hermingway/look" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-<h3>
+        <hr>
+
+        <section id="main_content">
+          <h3>
 <a name="%E4%BD%BF%E7%94%A8git%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%9C%89%E4%BB%A5%E4%B8%8B%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4" class="anchor" href="#%E4%BD%BF%E7%94%A8git%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%9C%89%E4%BB%A5%E4%B8%8B%E5%87%A0%E4%B8%AA%E6%AD%A5%E9%AA%A4"><span class="octicon octicon-link"></span></a>使用Git建立一个静态网页有以下几个步骤</h3>
 
 <pre><code>1. 注册一个Git的帐号
-2. 在网页上阅读说明文档（英文http://pages.github.com/）
-* 能看懂请不用看本页面
+2. 在网页上阅读说明文档（[Git官方说明文档](http://pages.github.com/)
+* 官方文档为英文，能看懂请不用看本页面
 3. 登录注册的帐号，进入到后台操作，万万没想到，2分钟以后，你就有了自己的页面
 
 </code></pre>
 
 <h3>
-<a name="%E4%B8%8B%E9%9D%A2%E8%AF%B7%E7%9C%8B%E5%85%B7%E4%BD%93%E8%BF%87%E7%A8%8B" class="anchor" href="#%E4%B8%8B%E9%9D%A2%E8%AF%B7%E7%9C%8B%E5%85%B7%E4%BD%93%E8%BF%87%E7%A8%8B"><span class="octicon octicon-link"></span></a>下面请看具体过程</h3>
-      </section>
-    </div>
+<a name="%E4%B8%8B%E9%9D%A2%E8%AF%B7%E7%9C%8B%E5%85%B7%E4%BD%93%E8%BF%87%E7%A8%8B%E5%85%A8%E4%B8%BA%E5%9B%BE%E7%A4%BA" class="anchor" href="#%E4%B8%8B%E9%9D%A2%E8%AF%B7%E7%9C%8B%E5%85%B7%E4%BD%93%E8%BF%87%E7%A8%8B%E5%85%A8%E4%B8%BA%E5%9B%BE%E7%A4%BA"><span class="octicon octicon-link"></span></a>下面请看具体过程，全为图示。</h3>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">如何用Git生成一个静态页面 maintained by <a href="https://github.com/hermingway">hermingway</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<h4>
+<a name="%E5%9B%BE%E7%89%87%E5%AD%98%E5%88%B0%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%84%B6%E5%90%8E%E9%93%BE%E6%8E%A5%E8%BF%87%E6%9D%A5%E7%9A%84%E7%BB%93%E6%9E%9C%E4%B8%8A%E4%BC%A0%E4%BB%A5%E5%90%8E%E5%9B%BE%E7%89%87%E8%B4%A8%E9%87%8F%E5%8F%98%E7%9A%84%E5%BE%88%E5%B7%AEsorry-for-your-eyes" class="anchor" href="#%E5%9B%BE%E7%89%87%E5%AD%98%E5%88%B0%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%84%B6%E5%90%8E%E9%93%BE%E6%8E%A5%E8%BF%87%E6%9D%A5%E7%9A%84%E7%BB%93%E6%9E%9C%E4%B8%8A%E4%BC%A0%E4%BB%A5%E5%90%8E%E5%9B%BE%E7%89%87%E8%B4%A8%E9%87%8F%E5%8F%98%E7%9A%84%E5%BE%88%E5%B7%AEsorry-for-your-eyes"><span class="octicon octicon-link"></span></a>图片存到百度网盘，然后链接过来的。结果上传以后图片质量变的很差。sorry for your eyes!!</h4>
 
-              <script type="text/javascript">
+<p><img src="http://d.pcs.baidu.com/thumbnail/86d44cf204a56fa099bc6848b2aa8318?fid=2315631562-250528-843857979&amp;time=1387252419&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-kf5f%2F7oum1ixF%2F8Qdo%2B56rmDm70%3D&amp;rt=sh&amp;expires=8h&amp;r=955175884&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="注册Git"><img src="http://d.pcs.baidu.com/thumbnail/4952263e71bd771f79939b4816f6b5a0?fid=2315631562-250528-2047992667&amp;time=1387252419&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-NBQd654PALNo51MJwj7b5VMc2u4%3D&amp;rt=sh&amp;expires=8h&amp;r=993694715&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="新建一个网页"><img src="http://d.pcs.baidu.com/thumbnail/2559fe22805c6f0575cca8a9303914e5?fid=2315631562-250528-2180028482&amp;time=1387252419&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-K7CVJWVf2WFQ2Lt07NAcd6yC5OI%3D&amp;rt=sh&amp;expires=8h&amp;r=762016687&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="创建项目"><img src="http://d.pcs.baidu.com/thumbnail/ec038277e54dd24812b713abbaef63c3?fid=2315631562-250528-862164443&amp;time=1387252419&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gSf%2FUGpCxL%2FYyXX3iLzshUvk9Y8%3D&amp;rt=sh&amp;expires=8h&amp;r=720931556&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="设置"><img src="http://d.pcs.baidu.com/thumbnail/3ec90dc2a2f3a9833b1fd4b25d5e08b9?fid=2315631562-250528-2187120375&amp;time=1387252419&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-EbFnYDW%2BEp%2B3NCauRNCa1J5uK1I%3D&amp;rt=sh&amp;expires=8h&amp;r=388821175&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="自动生成"><img src="http://d.pcs.baidu.com/thumbnail/807cf520eb1e2cd3acc534bb1f1cf9d7?fid=2315631562-250528-11459039&amp;time=1387252912&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-wLqfBQ5tY5T8SkubUSlME2kEL40%3D&amp;rt=sh&amp;expires=8h&amp;r=323757375&amp;sharesign=unknown&amp;size=c710_u500&amp;quality=100" alt="设置内容"><img src="http://d.pcs.baidu.com/thumbnail/17f712e000adbd784fe6ae091771d223?fid=2315631562-250528-4115302658&amp;time=1387252344&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-szM6%2BYMuq0tAbj7Riej10Quk8z4%3D&amp;rt=sh&amp;expires=8h&amp;r=579996356&amp;sharesign=unknown&amp;size=c850_u580&amp;quality=100" alt="主题设置"></p>
+
+<h4>
+<a name="%E9%80%89%E5%A5%BD%E4%B8%BB%E9%A2%98%E7%82%B9%E5%8F%B3%E4%B8%8A%E8%A7%92%E7%9A%84%E5%8B%BEpublish" class="anchor" href="#%E9%80%89%E5%A5%BD%E4%B8%BB%E9%A2%98%E7%82%B9%E5%8F%B3%E4%B8%8A%E8%A7%92%E7%9A%84%E5%8B%BEpublish"><span class="octicon octicon-link"></span></a>选好主题点右上角的“勾”，publish。</h4>
+
+<h3>
+<a name="%E4%BD%A0%E7%9A%84%E4%B8%BB%E9%A1%B5%E5%B7%B2%E7%BB%8F%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95%E5%BE%88%E7%AE%80%E5%8D%95%E9%87%8D%E8%A6%81%E6%98%AF%E7%BD%91%E9%A1%B5%E8%A6%81%E6%9C%89%E5%86%85%E5%AE%B9%E5%95%8A%E5%86%85%E5%AE%B9%E5%95%8A" class="anchor" href="#%E4%BD%A0%E7%9A%84%E4%B8%BB%E9%A1%B5%E5%B7%B2%E7%BB%8F%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95%E5%BE%88%E7%AE%80%E5%8D%95%E9%87%8D%E8%A6%81%E6%98%AF%E7%BD%91%E9%A1%B5%E8%A6%81%E6%9C%89%E5%86%85%E5%AE%B9%E5%95%8A%E5%86%85%E5%AE%B9%E5%95%8A"><span class="octicon octicon-link"></span></a>你的主页已经生成，方法很简单，重要是网页要有内容啊，内容啊！！</h3>
+        </section>
+
+        <footer>
+          如何用Git生成一个静态页面 is maintained by <a href="https://github.com/hermingway">hermingway</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+                  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
           <script type="text/javascript">
             try {
-              var pageTracker = _gat._getTracker("黄晓伟 个人网页 中国 空间 ");
+              var pageTracker = _gat._getTracker("黄晓伟 个人网页 中国 空间 说明文档 静态网页 如何建立静态网页");
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
 
-
+      </div>
+    </div>
   </body>
 </html>
